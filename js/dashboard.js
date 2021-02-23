@@ -12,29 +12,51 @@
     type: 'line',
     data: {
       labels: [
-        'Sunday',
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday'
+        'Meredith',
+        'Derek',
+        'Alex',
+        'George',
+        'Jackson',
+        'Izzie',
+        'Lexie',
+        'Callie',
+        'Jo',
+        'Owen',
+        'Deluca',
+        'Amelia',
+        'Miranda',
+        'Teddy',
+        'Richard',
+        'Maggie',
+        'Denny',
+        'Ben'
       ],
       datasets: [{
         data: [
-          15339,
-          21345,
-          18483,
-          24003,
-          23489,
-          24092,
-          12034
+          1,
+          6,
+          4,
+          2,
+          8,
+          12,
+          3,
+          1,
+          4,
+          5,
+          7,
+          3,
+          1,
+          12,
+          17,
+          5,
+          7,
+          9
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
-        borderColor: '#007bff',
+        borderColor: '#C67058',
         borderWidth: 4,
-        pointBackgroundColor: '#007bff'
+        pointBackgroundColor: '#C67058'
       }]
     },
     options: {

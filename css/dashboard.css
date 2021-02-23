@@ -102,7 +102,7 @@ body {
 }
 
 .bg-dark {
-    background-color: #6f837c!important;
+    background-color: #54635E!important;
 }
 
 /*
@@ -122,5 +122,43 @@ body {
 }
 
 .form-control::placeholder {
+  font-family: 'Lato', sans-serif;
   color: #F8F6F2;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  padding-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+a, a.btn.btn-primary, a.nav-link, button.btn.btn-sm.btn-outline-secondary {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #54635E;
+    border-color: #54635E;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6f837c;
+    border-color: #6f837c;
 }
