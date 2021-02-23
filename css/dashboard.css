@@ -1,5 +1,6 @@
 body {
   font-size: .875rem;
+  background-color: #F8F6F2;
 }
 
 .feather {
@@ -24,6 +25,7 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 48px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  background-color: #ede8dc!important;
 }
 
 @media (max-width: 767.98px) {
@@ -97,4 +99,28 @@ body {
 .form-control-dark:focus {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.bg-dark {
+    background-color: #6f837c!important;
+}
+
+/*
+* My Stuff
+*/
+
+.logo {
+  max-width: 15%!important;
+}
+
+.pt-3 {
+    padding-top: 2rem!important;
+}
+
+.sidebar .nav-link.active {
+    color: #C67058;
+}
+
+.form-control::placeholder {
+  color: #F8F6F2;
 }
