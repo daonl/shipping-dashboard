@@ -113,9 +113,9 @@ body {
   max-width: 15%!important;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .logo {
-        display: none!important;
+        max-width: 6%!important;
     }
 }
 
