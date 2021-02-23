@@ -113,6 +113,12 @@ body {
   max-width: 15%!important;
 }
 
+@media only screen and (min-width: 1024px) {
+    .logo {
+        display: none!important;
+    }
+}
+
 .pt-3 {
     padding-top: 2rem!important;
 }
